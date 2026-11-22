@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Petal colours used by native parts (widget, icon, splash). Same values as
+     lib/core/theme/petal_tokens.dart. -->
+<resources>
+    <color name="petal_cream">#FFF7F2</color>
+    <color name="petal_ink">#3B3355</color>
+    <color name="petal_secondary">#6E6485</color>
+    <color name="petal_deep">#5B3FA0</color>
+    <color name="petal_accent">#9B7FE0</color>
+    <color name="petal_soft">#EFE8FD</color>
+    <color name="petal_sky">#E3F3FC</color>
+    <color name="ic_launcher_background">#EFE8FD</color>
+</resources>

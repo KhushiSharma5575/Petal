@@ -1,0 +1,53 @@
+name: petal
+description: "Petal: a voice-first, offline, private life planner."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.14.0
+
+dependencies:
+  drift: ^2.35.4
+  drift_flutter: ^0.3.1
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^23.0.2
+  flutter_riverpod: ^3.5.0     # state management (MIT)
+  flutter_timezone: ^5.1.1
+  lucide_icons_flutter: ^4.0.3 # outlined stroke icons (ISC/MIT)
+  material_ui: ^1.1.0          # Flutter's official Material library (BSD-3)
+  speech_to_text: ^7.5.0
+  timezone: ^0.11.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  drift_dev: ^2.35.3
+  build_runner: ^2.17.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/OFL-Nunito.txt
+    - assets/fonts/OFL-Pacifico.txt
+
+  # Fonts are bundled so the app works fully offline (both OFL licensed).
+  # Nunito ships only as a variable font. We register the same file at each
+  # weight we use so Flutter's font matcher never fakes a bold, and the theme
+  # also sets the 'wght' axis explicitly (see core/theme/petal_text.dart).
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Variable.ttf
+          weight: 400
+        - asset: assets/fonts/Nunito-Variable.ttf
+          weight: 600
+        - asset: assets/fonts/Nunito-Variable.ttf
+          weight: 700
+        - asset: assets/fonts/Nunito-Variable.ttf
+          weight: 800
+    - family: Pacifico
+      fonts:
+        - asset: assets/fonts/Pacifico-Regular.ttf

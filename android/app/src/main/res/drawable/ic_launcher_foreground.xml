@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Petal app icon: a five-petal flower, drawn inside the 66dp safe zone of a
+     108dp adaptive icon so no launcher mask can clip it. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Petals (accent lavender), centred 14 units from the middle, every 72°. -->
+    <path
+        android:fillColor="#9B7FE0"
+        android:pathData="M54,40m-11,0a11,11 0,1 0,22 0a11,11 0,1 0,-22 0" />
+    <path
+        android:fillColor="#9B7FE0"
+        android:pathData="M67.31,49.67m-11,0a11,11 0,1 0,22 0a11,11 0,1 0,-22 0" />
+    <path
+        android:fillColor="#9B7FE0"
+        android:pathData="M62.23,65.33m-11,0a11,11 0,1 0,22 0a11,11 0,1 0,-22 0" />
+    <path
+        android:fillColor="#9B7FE0"
+        android:pathData="M45.77,65.33m-11,0a11,11 0,1 0,22 0a11,11 0,1 0,-22 0" />
+    <path
+        android:fillColor="#9B7FE0"
+        android:pathData="M40.69,49.67m-11,0a11,11 0,1 0,22 0a11,11 0,1 0,-22 0" />
+    <!-- Centre (butter yellow, like the "Great" mood face). -->
+    <path
+        android:fillColor="#FFD966"
+        android:pathData="M54,54m-8.5,0a8.5,8.5 0,1 0,17 0a8.5,8.5 0,1 0,-17 0" />
+</vector>

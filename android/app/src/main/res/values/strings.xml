@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_title">Today</string>
+    <string name="widget_add_glass">+ glass</string>
+    <string name="widget_add_glass_description">Add a glass of water</string>
+    <string name="widget_description">Today\'s tasks and water, with a quick + glass button.</string>
+    <string name="widget_label">Petal today</string>
+</resources>
