@@ -133,5 +133,5 @@ To make a release build you need your own signing key. See [Flutter's guide](htt
 - A year-in-colour mood view
 
 ---
-
+🎬 Full demo: [watch on LinkedIn](https://lnkd.in/p/gYpcvR6e)
 Made with 🌸 by Khushi Sharma.
